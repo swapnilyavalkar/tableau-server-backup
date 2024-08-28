@@ -20,8 +20,8 @@ This Python script is your go-to solution for automating Tableau Server backups.
   - `env`: Set the environment (`DEV`, `QA`, `PROD`) based on your deployment.
 - **📁 Directories**: 
   - `log_dir`: Directory for storing log files (Default: `.\\logs`).
-  - `backup_dir`: Tableau's backup file location (Default: `C:/Program Files/Tableau/Tableau Server/data/tabsvc/files/backups`).
-  - `shared_dir`: Network path for backup file storage (Default: `\\\\abc\\tableau\\backups\\daily`).
+  - `backup_dir`: Tableau's backup file location (Default: `C:/Program Files/Tableau/data/tabsvc/files/backups`).
+  - `shared_dir`: Network path for backup file storage (Default: `\\\\abc\\backups\\daily`).
 - **✉️ Email Settings**:
   - `smtp_host`: SMTP server hostname (e.g., `mail.abc.com`).
   - `smtp_port`: SMTP server port (Default: `25`).
